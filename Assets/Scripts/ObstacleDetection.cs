@@ -24,8 +24,8 @@ public class ObstacleDetection : MonoBehaviour
             Debug.Log("Enemy killed - with collider!");
             Destroy(collision.collider.gameObject);
 
-            x_pos = Random.Range(-9.8f, 9.8f);
-            z_pos = Random.Range(-9.8f, 9.8f);
+            x_pos = Random.Range(-20f, 20f);
+            z_pos = Random.Range(-20f, 20f);
 
             GameObject _newEnemy = GameObject.Instantiate(enemyCollider);
             _newEnemy.transform.position = new Vector3(x_pos, 0.6f, z_pos);
