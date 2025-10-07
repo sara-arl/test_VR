@@ -558,8 +558,8 @@ MonoBehaviour:
     m_SingletonActionBindings: []
     m_Flags: 0
   moveVector: {x: 0, y: 0}
-  speed: 5
-  rotSpeed: 25
+  speed: 4
+  rotSpeed: 28
 --- !u!54 &516541123
 Rigidbody:
   m_ObjectHideFlags: 0
